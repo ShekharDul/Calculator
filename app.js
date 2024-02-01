@@ -1,6 +1,5 @@
 // functions for each operation
 function addition(num1, num2){
-  console.log("Num1: " + num1 + "Num2: " + num2);
   let result = num1 + num2;
   return result;
 }
@@ -66,7 +65,7 @@ for (i = 0; i<button.length; i++) {
           displayClickedButton.innerText = subtraction(num1, num2);
           isCalculationComplete = true;
           } else if (arrOfBothQueries[2] === '*') {
-          displayClickedButton.innerText = multiplication(num1. num2);
+          displayClickedButton.innerText = multiplication(num1, num2);
           isCalculationComplete = true;
           } else if (arrOfBothQueries[2] === '/') {
           displayClickedButton.innerText = division(num1, num2);
